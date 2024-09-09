@@ -1,0 +1,79 @@
+[
+    {
+        "id": "bbc-news",
+        "name": "BBC News",
+        "author": "Jane Smith",
+        "title": "Another Important Event",
+        "description": "Details about another important event happening around the world.",
+        "url": "https://www.bbc.com/news/world/2024/important-event",
+        "urlToImage": "https://cdn.bbc.com/news/images/important-event.jpg",
+        "publishedAt": "2024-09-08T10:20:00Z",
+        "content": "This is the full article content for the important event happening globally."
+    },
+    {
+        "id": "cnn-news",
+        "name": "CNN",
+        "author": "John Doe",
+        "title": "Major Breaking News",
+        "description": "Coverage of a major breaking news event from around the world.",
+        "url": "https://www.cnn.com/world/2024/breaking-news",
+        "urlToImage": "https://cdn.cnn.com/news/images/breaking-news.jpg",
+        "publishedAt": "2024-09-07T09:15:00Z",
+        "content": "In-depth analysis of the breaking news event with detailed reporting."
+    },
+    {
+        "id": "nyt-news",
+        "name": "The New York Times",
+        "author": "Emily Johnson",
+        "title": "Economic Impact Analysis",
+        "description": "Exploring the economic impacts of recent global events.",
+        "url": "https://www.nytimes.com/world/economic-impact",
+        "urlToImage": "https://cdn.nytimes.com/news/images/economic-impact.jpg",
+        "publishedAt": "2024-09-06T14:00:00Z",
+        "content": "A comprehensive report on the economic effects of recent global changes."
+    },
+    {
+        "id": "al-jazeera",
+        "name": "Al Jazeera",
+        "author": "Mohamed Ali",
+        "title": "Political Turmoil in Region",
+        "description": "Analysis of the current political situation in a troubled region.",
+        "url": "https://www.aljazeera.com/news/2024/political-turmoil",
+        "urlToImage": "https://cdn.aljazeera.com/news/images/political-turmoil.jpg",
+        "publishedAt": "2024-09-05T11:30:00Z",
+        "content": "Detailed coverage of the ongoing political issues affecting the region."
+    },
+    {
+        "id": "the-guardian",
+        "name": "The Guardian",
+        "author": "Sarah Brown",
+        "title": "Environmental Conservation Efforts",
+        "description": "Highlighting recent efforts in environmental conservation.",
+        "url": "https://www.theguardian.com/environment/2024/conservation-efforts",
+        "urlToImage": "https://cdn.theguardian.com/environment/images/conservation-efforts.jpg",
+        "publishedAt": "2024-09-04T08:00:00Z",
+        "content": "An overview of recent initiatives and progress in environmental conservation."
+    },
+    {
+        "id": "forbes",
+        "name": "Forbes",
+        "author": "David Lee",
+        "title": "Tech Industry Trends",
+        "description": "Latest trends and developments in the technology sector.",
+        "url": "https://www.forbes.com/tech/2024/trends",
+        "urlToImage": "https://cdn.forbes.com/tech/images/trends.jpg",
+        "publishedAt": "2024-09-03T07:45:00Z",
+        "content": "Analysis of current trends and future predictions for the tech industry."
+    },
+    {
+        "id": "reuters",
+        "name": "Reuters",
+        "author": "Laura Green",
+        "title": "Global Health Updates",
+        "description": "Updates on the current state of global health issues.",
+        "url": "https://www.reuters.com/news/global-health-updates",
+        "urlToImage": "https://cdn.reuters.com/news/images/global-health-updates.jpg",
+        "publishedAt": "2024-09-02T06:30:00Z",
+        "content": "Reporting on recent developments and data related to global health concerns."
+    }
+]
