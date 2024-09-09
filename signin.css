@@ -1,0 +1,106 @@
+*, body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-holder {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    text-align: center;
+}
+
+.form-items {
+    text-align: left;
+}
+
+.form-items h3 {
+    color: #007bb5;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.form-items p {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-weight: 300;
+    color: #007bb5;
+}
+
+.form-items input,
+.form-items select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #f0f4f7;
+    margin-bottom: 15px;
+    border: 1px solid #d1e7ed;
+    font-size: 15px;
+    color: #007bb5;
+}
+
+.form-items input:focus,
+.form-items select:focus {
+    background-color: #e0f7fa;
+}
+
+.btn-primary {
+    background-color: #007bb5;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #005f87;
+}
+
+.form-items .invalid-feedback {
+    color: #e57373;
+    display: none;
+}
+
+.form-items .valid-feedback {
+    color: #4caf50;
+    display: none;
+}
+
+input.is-valid ~ .valid-feedback {
+    display: block;
+}
+
+input.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+select.is-valid ~ .valid-feedback,
+select.is-invalid ~ .invalid-feedback {
+    display: block;
+}
+
+.was-validated .is-valid ~ .valid-feedback {
+    display: block;
+}
+
+.was-validated .is-invalid ~ .invalid-feedback {
+    display: block;
+}

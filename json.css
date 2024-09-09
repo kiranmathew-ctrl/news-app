@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #2294ed;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.news-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.news-card h2 {
+    margin-top: 0;
+}
+
+.news-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.news-card p {
+    margin: 10px 0;
+}
+
+.news-card a {
+    color: #2294ed;
+    text-decoration: none;
+}
+
+.news-card a:hover {
+    text-decoration: underline;
+}
